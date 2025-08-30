@@ -15,3 +15,5 @@ A Python script that automatically organizes files in a specified directory into
 - Automatic Scanning: Scans all subfolders in the specified root directory.
 
 - Error Handling: Continues processing other files even if some files encounter errors.
+
+

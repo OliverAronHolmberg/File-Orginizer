@@ -12,13 +12,11 @@ A Python script that automatically organizes files in a specified directory into
 
 - Audio Files: Moves .mp3, .wav to the Music folder.
 
-- Automatic Scanning: Scans all subfolders in the specified root directory.
-
 - Error Handling: Continues processing other files even if some files encounter errors.
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 
 - Standard libraries only: os, shutil
 
@@ -35,8 +33,6 @@ A Python script that automatically organizes files in a specified directory into
 - Only files with the specified extensions will be moved.
 
 - Files with unsupported extensions will be ignored.
-
-- The script will not overwrite files with the same name in the destination folder; duplicates need to be handled manually.
 
 - Ensure the destination folders exist before running the script.
 

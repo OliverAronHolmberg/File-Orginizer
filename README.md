@@ -16,4 +16,27 @@ A Python script that automatically organizes files in a specified directory into
 
 - Error Handling: Continues processing other files even if some files encounter errors.
 
+## Requirements
+
+- Python 3.x
+
+- Standard libraries only: os, shutil
+
+## Usage
+
+- Update File Paths: Modify the script to set your desired directories for Pictures, Videos, Documents, Music, and the root folder.
+
+- Run the Script: Execute the script in your terminal or command prompt.
+
+- File Organization: The script will move files to the corresponding folders and print the names of moved files.
+
+## Notes
+
+- Only files with the specified extensions will be moved.
+
+- Files with unsupported extensions will be ignored.
+
+- The script will not overwrite files with the same name in the destination folder; duplicates need to be handled manually.
+
+- Ensure the destination folders exist before running the script.
 
